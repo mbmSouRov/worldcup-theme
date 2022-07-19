@@ -97,9 +97,62 @@ body {
 }
 .tournament-detail {
   width: 250px;
-  border: 1px solid black;
-  border-radius: 5px;
+  box-shadow: 1px 1px 5px grey;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 .blog-img img {
   width: 100%;
+}
+.tournament-detail p {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 0 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.tournament-detail h4 {
+  margin-left: 10px;
+}
+.blog-icons {
+  margin-left: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/*--------------------------------Footer Part--------------------------------*/
+/* ------------------------------------------------------------------------------------------------ */
+
+footer {
+  background-color: black;
+}
+.footer-title h1 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+hr {
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.footer-options {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-options p {
+  color: white;
+  font-size: 16px;
+}
+.footer-icons {
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+.footer-icons i {
+  color: #ffffff;
 }
