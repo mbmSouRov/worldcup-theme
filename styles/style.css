@@ -97,7 +97,7 @@ body {
 }
 .tournament-detail {
   width: 250px;
-  box-shadow: 1px 1px 5px grey;
+  box-shadow: 1px 1px 5px rgb(199, 199, 199);
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -118,6 +118,29 @@ body {
   margin-left: 10px;
 }
 
+/* Tournament Details Team Vs Team Part */
+.team-imgs {
+  display: flex;
+  justify-content: center;
+}
+#team-team {
+  width: 245px;
+  padding: 30px 0px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+#team-fights {
+  text-align: center;
+  margin: 10px 0;
+}
+#match-date-time {
+  border: none;
+  text-align: center;
+  font-weight: 400;
+  color: #4d4d4d;
+  font-size: 16px;
+  margin: 0 10px 0 30px;
+}
 /* ------------------------------------------------------------------------------------------------ */
 /*--------------------------------Footer Part--------------------------------*/
 /* ------------------------------------------------------------------------------------------------ */
