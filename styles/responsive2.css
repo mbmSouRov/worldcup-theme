@@ -1,0 +1,63 @@
+/* Tab View */
+@media screen and (max-width: 1024px) and (min-width: 688px) {
+  .container-1 {
+    display: flex;
+    margin: 50px 20px 0px;
+  }
+
+  .container-2 {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+  .tournament-infos {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: max-content;
+    height: max-content;
+  }
+  .tournament-info {
+    padding: 0;
+    margin: 0 10%;
+    /* border: 1px solid black; */
+  }
+  .tournament-info p {
+    border: 1px solid grey;
+  }
+
+  .tournament-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    justify-items: center;
+  }
+  .tournament-detail {
+    width: 430px;
+  }
+  #team-team {
+    margin: 0;
+    width: 430px;
+  }
+  #match-date-time {
+    text-align: center;
+    margin: 0;
+    padding: 0 30%;
+  }
+  .footer-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 20%;
+  }
+  .footer-icons {
+    margin: 5% 40% 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

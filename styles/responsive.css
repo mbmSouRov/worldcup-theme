@@ -64,6 +64,7 @@
   .tournament-info p {
     border: 1px solid grey;
   }
+
   .tournament-details {
     width: 100%;
     display: grid;
@@ -76,6 +77,7 @@
   #team-team {
     margin: 0;
   }
+
   /* ------------------------------------ */
   /* Main Body-Grid Part Done!*/
   /* ------------------------------------ */
