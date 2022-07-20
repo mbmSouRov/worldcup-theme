@@ -66,9 +66,8 @@
   /* ------------------------------------ */
   .footer-options {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 20%;
+    margin: 0 10%;
   }
   .footer-icons {
     margin: 5% 40% 0;
