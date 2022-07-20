@@ -220,14 +220,17 @@ hr {
   border-radius: 30px;
 }
 #icon-facebook:hover {
+  transition: 1s;
   background-color: white;
   color: #4267b2;
 }
 #icon-twitter:hover {
   background-color: #00acee;
   color: white;
+  transition: 1s;
 }
 #icon-linkedin:hover {
   background-color: #0072b1;
   color: white;
+  transition: 1s;
 }
