@@ -3,6 +3,9 @@
 
 /* Font Family Added To the Body */
 body {
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
 }
 /* ------------------------------------------------------------------------------------------------ */
@@ -112,7 +115,7 @@ body {
 }
 .tournament-info.active p {
   color: white;
-  background-color: rgb(220, 9, 9);
+  background-color: rgb(255, 42, 77);
 }
 .tournament-details {
   height: 100%;
