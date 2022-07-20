@@ -49,6 +49,16 @@
     margin: 0;
     padding: 0 30%;
   }
+  .hidden-box {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .hidden-box a {
+    font-size: large;
+    padding: 20px 60px;
+  }
+
   .footer-options {
     display: flex;
     flex-wrap: wrap;

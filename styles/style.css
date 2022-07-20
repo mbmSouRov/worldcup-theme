@@ -117,6 +117,9 @@ body {
 .blog-icons {
   margin-left: 10px;
 }
+.hidden-box {
+  display: none;
+}
 
 /* Tournament Details Team Vs Team Part */
 .team-imgs {
