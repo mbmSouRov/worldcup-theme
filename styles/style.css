@@ -31,6 +31,28 @@ body {
   color: #ffffff;
   margin-bottom: 30px;
 }
+.animation-color {
+  text-transform: uppercase;
+  color: red;
+  animation: anime 3s ease-in-out infinite;
+}
+@keyframes anime {
+  0% {
+    color: rgb(181, 6, 6);
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: orangered;
+  }
+  75% {
+    color: rebeccapurple;
+  }
+  100% {
+    columns: red;
+  }
+}
 .banner-button {
   text-decoration: none;
   background-color: rgb(220, 9, 9);
@@ -190,6 +212,22 @@ hr {
   padding-bottom: 80px;
 }
 .footer-icons i {
+  /* font-size: 20px; */
   color: #ffffff;
   cursor: pointer;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 30px;
+}
+#icon-facebook:hover {
+  background-color: white;
+  color: #4267b2;
+}
+#icon-twitter:hover {
+  background-color: #00acee;
+  color: white;
+}
+#icon-linkedin:hover {
+  background-color: #0072b1;
+  color: white;
 }
