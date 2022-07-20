@@ -57,7 +57,6 @@ body {
 .container-2 {
   display: flex;
   margin: 20px 100px;
-  /* border: 1px solid black; */
 }
 .tournament-infos {
   display: flex;
@@ -79,6 +78,7 @@ body {
   text-align: center;
   border-radius: 10px;
   padding-top: 20px;
+  cursor: pointer;
 }
 .tournament-info.active p {
   color: white;
@@ -97,7 +97,7 @@ body {
 }
 .tournament-detail {
   width: 250px;
-  box-shadow: 1px 1px 5px rgb(199, 199, 199);
+  border: 1px solid rgb(219, 219, 219);
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -114,8 +114,9 @@ body {
 .tournament-detail h4 {
   margin-left: 10px;
 }
-.blog-icons {
+.blog-icons i {
   margin-left: 10px;
+  color: rgb(64, 0, 0);
 }
 .hidden-box {
   display: none;
@@ -149,7 +150,7 @@ body {
 /* ------------------------------------------------------------------------------------------------ */
 
 footer {
-  background-color: black;
+  background-color: #161616;
 }
 .footer-title h1 {
   text-align: center;
@@ -170,6 +171,7 @@ hr {
 .footer-options p {
   color: white;
   font-size: 16px;
+  cursor: default;
 }
 .footer-icons {
   margin-left: 500px;
@@ -181,4 +183,5 @@ hr {
 }
 .footer-icons i {
   color: #ffffff;
+  cursor: pointer;
 }
