@@ -73,6 +73,9 @@
   .tournament-detail {
     width: 100%;
   }
+  #team-team {
+    margin: 0;
+  }
   /* ------------------------------------ */
   /* Main Body-Grid Part Done!*/
   /* ------------------------------------ */
